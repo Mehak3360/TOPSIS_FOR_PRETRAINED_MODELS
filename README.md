@@ -37,25 +37,19 @@ It represents real-world chatbot applications.
 | Memory Usage | Computational resource consumption of model | Negative (-) | 100 – 2500 |
 
 ## Methodology
-Step 1: Model Response Generation
+### Step 1: Model Response Generation
+    Each conversational model generates responses to daily conversation prompts.
 
-Each conversational model generates responses to daily conversation prompts.
+### Step 2: Performance Measurement
+    Metrics such as response quality, response time, and memory usage are collected.
 
-Step 2: Performance Measurement
+### Step 3: TOPSIS Implementation
+    - TOPSIS ranks models based on:
+    - Distance from ideal best solution
+    - Distance from ideal worst solution
 
-Metrics such as response quality, response time, and memory usage are collected.
-
-Step 3: TOPSIS Implementation
-
-TOPSIS ranks models based on:
-
-Distance from ideal best solution
-
-Distance from ideal worst solution
-
-Step 4: Model Ranking
-
-Models are ranked using TOPSIS score.
+### Step 4: Model Ranking
+    Models are ranked using TOPSIS score.
 
 ## Output
 - Graph
